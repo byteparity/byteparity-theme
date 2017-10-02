@@ -49,9 +49,9 @@ Liferay BYTEPARITY-THEME is Single page compnay website  theme
 gulp deploy
 ```
 6. Go to liferay -> Create Custom fileds at site level
-  - "Banner Title" - local text
-  - "Banner Detail Text" - local text
-  - "Banner Link" - text
+  - "Banner Title" - Localized Text
+  - "Banner Detail Text" - Localized Text
+  - "Banner Link" - Text
   Give "View" Permission at all Custom filed to all users
 
 7. Create new site blank site -> Apply `byteparity-theme` to newly created site.

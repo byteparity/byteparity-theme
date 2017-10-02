@@ -38,9 +38,9 @@ Liferay BYTEPARITY-THEME is Single page compnay website  theme
   "appServerPath": "PATH_TO_LIFERAY_TOMCATE_DIR", 
   "deployPath": "PATH_TO_LIFERAY_DEPLOY_DIR",
   "url": "http://localhost:8080",
-  "appServerPathPlugin": "E:\\poc\\flatly-theme\\.web_bundle_build",
+  "appServerPathPlugin": "E:\\poc\\byteparity-theme\\.web_bundle_build",
   "deployed": true,
-  "pluginName": "flatly-theme"
+  "pluginName": "byteparity-theme"
    }
  }
  ```
@@ -52,7 +52,8 @@ gulp deploy
   - "Banner Title" - Localized Text
   - "Banner Detail Text" - Localized Text
   - "Banner Link" - Text
-  Give "View" Permission at all Custom filed to all users
+
+      Give "View" Permission at all Custom filed to all users
 
 7. Create new site blank site -> Apply `byteparity-theme` to newly created site.
 

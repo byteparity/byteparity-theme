@@ -27,7 +27,7 @@
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
           <li><a href="${site_default_url}/#intro">About</a></li>
-          <li><a href="${site_default_url}/#services">services</a></li>
+          <li><a href="${site_default_url}/#services">Services</a></li>
           <li><a href="${site_default_url}/#works">Works</a></li>
           <li><a href="${site_default_url}/#teams">Our Team</a></li>
           <li><a href="${site_default_url}/#testimonials">Testimonials</a></li>
@@ -98,38 +98,8 @@
 <footer class="footer" id="footer" role="contentinfo">
 <div class="footer-top section">
 	<div class="container">
-	<div class="row">
-		<div class="footer-col col-md-6">
-		<h5>Our Office Location</h5>
-		<p>C/605-B Ganesh Meridian,<br>
-			Opp. Gujarat High Court, S. G. Highway,<br>
-			Ahmedabad, Gujarat, INDIA - 380 060<br>
-			+91 76000 88440 / +91 98989 00896<br>
-			hello@byteparity.com</p>
-		<p>Made with <i class="icon-heart"></i> in India & by <a href="${company_url}" rel="external">${site_name}</a></p>
-		</div>
-		<div class="footer-col col-md-3">
-		<h5>Services We Offer</h5>
-		<p>
-		<ul>
-			<li><a href="#">Digital Strategy</a></li>
-			<li><a href="#">Websites</a></li>
-			<li><a href="#">Videography</a></li>
-			<li><a href="#">Social Media</a></li>
-			<li><a href="#">User Experience</a></li>
-		</ul>
-		</p>
-		</div>
-		<div class="footer-col col-md-3">
-		<h5>Share with Love</h5>
-		<ul class="footer-share">
-			<li><a href="https://www.facebook.com/byteparity"><i class="icon-facebook"></i></a></li>
-			<li><a href="https://twitter.com/byteparity"><i class="icon-twitter"></i></a></li>
-			<li><a href="https://www.linkedin.com/company/byteparity-technologies"><i class="icon-linkedin"></i></a></li>
-			<li><a href="https://plus.google.com/+Byteparity"><i class="icon-google-plus"></i></a></li>
-		</ul>
-		</div>
-	</div>
+	<#include "${full_templates_path}/footer.ftl" />
+	
 	</div>
 </div>
 <!-- footer top --> 

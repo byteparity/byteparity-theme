@@ -57,7 +57,9 @@ gulp deploy
 
 7. Create new site blank site -> Apply `byteparity-theme` to newly created site.
 
-8. Import `.lar` file from `/lar` folder to newly created site.
+8. Import `full-site.lar` file from `/lar` folder to newly created site.
+
+9. You can updated all section content from `web-content`, We have developed `web-content` with well fromating `structurs` and `templates`.
 
 [LIFERAY THEME GENERATOR](https://dev.liferay.com/develop/tutorials/-/knowledge_base/7-0/themes-generator) detail doc.
 
